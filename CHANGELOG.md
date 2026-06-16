@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/bdgerszewski/morphe-patches-ihealth/compare/v1.0.0...v1.0.1) (2026-06-16)
+
+### 🐛 Bug Fixes
+
+* cleaup example and fill in details ([18da77e](https://github.com/bdgerszewski/morphe-patches-ihealth/commit/18da77e8d18ed0f404c03ae130e40e773f67292f))
+
 ## [1.0.1-dev.1](https://github.com/bdgerszewski/morphe-patches-ihealth/compare/v1.0.0...v1.0.1-dev.1) (2026-06-16)
 
 ### 🐛 Bug Fixes
