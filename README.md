@@ -10,7 +10,7 @@ TODO: Update this about section with a brief introduction/summary about this rep
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0](https://github.com/bdgerszewski/morphe-patches-ihealth/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
+> **[v1.0.1-dev.1](https://github.com/bdgerszewski/morphe-patches-ihealth/releases/tag/v1.0.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 iHealth MyVitals&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
@@ -26,21 +26,6 @@ TODO: Update this about section with a brief introduction/summary about this rep
 | [Disable ad banner](#disable-ad-banner) | Prevents the rotating ad banner from appearing at the bottom of the Devices screen. |  |
 | [Hide buy more devices link](#hide-buy-more-devices-link) | Hides the 'Buy more iHealth devices?' link at the bottom of the Devices screen. |  |
 | [Rebrand app](#rebrand-app) | Changes the package name to allow installation alongside the original app and renames the app to 'iHealth Morphe'. Disables Firebase initialization, which would otherwise crash on startup when the new package name is not registered. |  |
-
-</details>
-
-<details open>
-<summary>📦 XYZ app&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 2.0.0 | 1.0.2 |
-| :---: | :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Example Patch](#example-patch) | Example patch to start with. |  |
 
 </details>
 
