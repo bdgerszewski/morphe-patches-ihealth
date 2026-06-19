@@ -1,7 +1,32 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.1",
+  "version": "1.1.0-dev.1",
   "patches": [
+    {
+      "name": "Bypass DRM",
+      "description": "Prevents PairIP license check from running so the app does not redirect to the Play Store paywall on launch.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.persapps.multitimer",
+          "name": "MultiTimer - Multiple Timers",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#FF5722",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.12",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
     {
       "name": "Disable AI motivational modal",
       "description": "Prevents the AI-generated motivational modal from appearing after a blood pressure reading.",
@@ -43,6 +68,31 @@
           "targets": [
             {
               "version": "4.14.5",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable PRO",
+      "description": "Unlocks all PRO features by short-circuiting the purchase status check to always return true.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.persapps.multitimer",
+          "name": "MultiTimer - Multiple Timers",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#FF5722",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.12",
               "isExperimental": false,
               "minSdk": null,
               "description": null

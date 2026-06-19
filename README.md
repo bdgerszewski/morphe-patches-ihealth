@@ -10,7 +10,23 @@ TODO: Update this about section with a brief introduction/summary about this rep
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1](https://github.com/bdgerszewski/morphe-patches-ihealth/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.1.0-dev.1](https://github.com/bdgerszewski/morphe-patches-ihealth/releases/tag/v1.1.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
+<details open>
+<summary>📦 MultiTimer - Multiple Timers&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.12 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Bypass DRM](#bypass-drm) | Prevents PairIP license check from running so the app does not redirect to the Play Store paywall on launch. |  |
+| [Enable PRO](#enable-pro) | Unlocks all PRO features by short-circuiting the purchase status check to always return true. |  |
+
+</details>
+
 <details open>
 <summary>📦 iHealth MyVitals&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
