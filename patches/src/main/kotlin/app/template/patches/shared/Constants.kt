@@ -14,4 +14,24 @@ object Constants {
             AppTarget(version = "4.14.5")
         )
     )
+
+    val COMPATIBILITY_MULTITIMER = Compatibility(
+        name = "MultiTimer - Multiple Timers",
+        packageName = "com.persapps.multitimer",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0xFF5722,
+        targets = listOf(
+            AppTarget(version = "1.12")
+        )
+    )
+
+    val COMPATIBILITY_CLOCK = Compatibility(
+        name = "OnePlus Clock",
+        packageName = "com.oneplus.deskclock",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0x1A73E8,
+        targets = listOf(
+            AppTarget(version = "16.13.2")
+        )
+    )
 }
