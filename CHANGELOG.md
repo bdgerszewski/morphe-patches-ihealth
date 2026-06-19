@@ -1,3 +1,9 @@
+## [1.1.0-dev.1](https://github.com/bdgerszewski/morphe-patches-ihealth/compare/v1.0.1...v1.1.0-dev.1) (2026-06-19)
+
+### ✨ New Features
+
+* Unlock MultiTimer Pro ([0cc25bb](https://github.com/bdgerszewski/morphe-patches-ihealth/commit/0cc25bbe11cbe6c03bdc80a4858bc09964af81a7))
+
 ## [1.0.1](https://github.com/bdgerszewski/morphe-patches-ihealth/compare/v1.0.0...v1.0.1) (2026-06-16)
 
 ### 🐛 Bug Fixes
