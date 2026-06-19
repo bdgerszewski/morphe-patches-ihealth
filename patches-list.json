@@ -3,6 +3,31 @@
   "version": "1.0.1",
   "patches": [
     {
+      "name": "Bypass DRM",
+      "description": "Prevents PairIP license check from running so the app does not redirect to the Play Store paywall on launch.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.persapps.multitimer",
+          "name": "MultiTimer - Multiple Timers",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#FF5722",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.12",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Disable AI motivational modal",
       "description": "Prevents the AI-generated motivational modal from appearing after a blood pressure reading.",
       "default": true,
@@ -53,6 +78,56 @@
       "options": []
     },
     {
+      "name": "Enable PRO",
+      "description": "Unlocks all PRO features by short-circuiting the purchase status check to always return true.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.persapps.multitimer",
+          "name": "MultiTimer - Multiple Timers",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#FF5722",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.12",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Fix crash on non-OnePlus devices",
+      "description": "Injects a stub OplusFeatureConfigManager so the app launches on non-OnePlus devices instead of crashing with NoClassDefFoundError at startup.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.oneplus.deskclock",
+          "name": "OnePlus Clock",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1A73E8",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "16.13.2",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Hide buy more devices link",
       "description": "Hides the 'Buy more iHealth devices?' link at the bottom of the Devices screen.",
       "default": true,
@@ -68,6 +143,31 @@
           "targets": [
             {
               "version": "4.14.5",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Rebrand app",
+      "description": "Changes the package name to 'com.morphe.clock' so the patched app can be installed alongside the original OnePlus system clock without conflict. Also renames the app label to 'Clock (Morphe)'.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.oneplus.deskclock",
+          "name": "OnePlus Clock",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1A73E8",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "16.13.2",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -95,6 +195,31 @@
           "targets": [
             {
               "version": "4.14.5",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Show next alarm time",
+      "description": "Appends the wall-clock alarm time (e.g. '7:00 AM') to the countdown banner shown at the top of the Alarm tab, giving 'Next alarm in 14 hours 21 minutes (7:00 AM)'.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.oneplus.deskclock",
+          "name": "OnePlus Clock",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1A73E8",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "16.13.2",
               "isExperimental": false,
               "minSdk": null,
               "description": null
